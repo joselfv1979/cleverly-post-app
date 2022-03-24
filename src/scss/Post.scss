@@ -1,0 +1,63 @@
+.post-card {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+
+    &:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    &__title {
+        color: #252525;
+        margin-bottom: 0.5rem;
+        line-height: 1.6;
+    }
+
+    &__body {
+        font-family: 'Playfair Display', serif;
+        color: #4a4a4a;
+        line-height: 1.6;
+    }
+
+    &__button-group {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &__button {
+        display: flex;
+        justify-content: center;
+        border: none;
+        color: white;
+        padding: 10px 16px;
+        text-align: center;
+        font-size: 16px;
+        border-radius: 4px;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        cursor: pointer;
+
+        &--red {
+            background-color: #f44336;
+
+            &:hover {
+                background-color: #8B0000;
+            }
+        }
+
+        &--blue {
+            background-color: #1183ca;
+
+            &:hover {
+                background-color: #002147;
+            }
+        }
+    }
+}

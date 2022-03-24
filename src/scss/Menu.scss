@@ -1,0 +1,43 @@
+.menu {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+
+    &__li {
+
+        margin: 1rem;
+
+        &--login {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+        }
+
+        &--active {
+            color: #00ffff;
+        }
+    }
+
+    &__logout-icon {
+        color: #f44336;
+        cursor: pointer;
+        height: 1.5rem;
+        width: 1.5rem;
+        margin-left: 0.5rem;
+    
+        &:hover {
+            color: #7fff00;
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #252525;
+    font-weight: bold;
+
+    &:hover {
+        color: chartreuse;
+    }
+}

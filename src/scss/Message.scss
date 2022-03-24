@@ -1,0 +1,36 @@
+%message-layout {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    padding: .6rem;
+}
+
+.message {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    padding: .6rem;
+
+    &--error {
+        background-color: #f44336;
+    }
+
+    &--success {
+        background-color: #7fff00;
+    }
+}
+
+.message__content {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.message__span {
+    cursor: pointer;
+    font-weight: bold;
+
+    &:hover {
+        color: #000;
+    }
+}

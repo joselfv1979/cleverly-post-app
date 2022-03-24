@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    min-height: 100vh;
+    background: #1183ca;
+
+    // &__main {
+    //     min-height: 90vh;
+    // }
+
+    &__loader {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        min-height: 80vh;
+        width: 100%;
+
+        &__img {
+            height: 3rem;
+            width: 3rem;
+        }
+    }
+}
+
+ul {
+    list-style: none;
+}

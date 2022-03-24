@@ -1,0 +1,16 @@
+// $light: #252525;
+
+.postList {
+    &__ul {
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+        grid-gap: 2rem;
+        align-items: stretch;
+    }
+
+    &__error, &__no-post {
+        margin: 4rem;
+        text-align: center;
+    }
+}

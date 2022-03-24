@@ -14,7 +14,6 @@ export const UserContextProvider = ({ children }: Props) => {
   const [user, setUser] = useState<IUser | null>(itemUser);
 
   return (
-    // the Provider gives access to the context to its children
     <UserContext.Provider value={{ user, setUser }}>
       {children}
     </UserContext.Provider>

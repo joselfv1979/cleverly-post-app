@@ -3,7 +3,6 @@ import { IMessage } from "../models/Message";
 
 export type MessageContent = {
   message: IMessage | null;
-  //message: string | null;
   addMessage: (message: IMessage) => void;
   clearMessage: () => void;
 };
